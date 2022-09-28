@@ -1,4 +1,5 @@
-.portal-hidden .gh-portal-triggerbtn-iframe {
-    opacity: 0;
+.home-template:not(.portal-visible) .gh-portal-triggerbtn-iframe,
+.canvas-opened .gh-portal-triggerbtn-iframe {
     pointer-events: none;
+    opacity: 0;
 }

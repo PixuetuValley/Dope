@@ -3,14 +3,13 @@
     right: 0;
     left: 0;
     z-index: 80;
-    padding: 0 45px;
     backface-visibility: hidden;
 }
 
 .navbar {
     display: flex;
-    justify-content: space-between;
     align-items: center;
+    justify-content: space-between;
     height: 100px;
 }
 
@@ -30,8 +29,8 @@
     font-weight: 800;
 }
 
-@media (max-width: 1124px) {
-    .site-header {
-        padding: 0 4vw;
+@media (max-width: 767px) {
+    .navbar {
+        height: 80px;
     }
 }

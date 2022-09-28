@@ -4,17 +4,17 @@
 
 .single-post .u-placeholder {
     display: flex;
-    min-height: 450px;
+    min-height: 560px;
 }
 
 .single-post .u-placeholder::before {
-    content: "";
     position: absolute;
     top: 0;
     right: 0;
     bottom: 0;
     left: 0;
     z-index: 10;
+    content: "";
     background-color: #000;
     transition: background-color 1s var(--animation-base);
 }
@@ -24,25 +24,28 @@
 }
 
 .single-post .post-header {
-    margin: 30px 0 45px;
-    text-align: center;
+    margin: 32px 0 40px;
 }
 
 .single-post .post-title {
-    font-size: 30px;
+    font-size: 56px;
+    letter-spacing: -0.01em;
+}
+
+.single-post .post-meta {
+    margin-top: 20px;
 }
 
 .single-post .post-media {
-    margin-bottom: 45px;
+    margin-bottom: 48px;
     border-radius: 0;
 }
 
 .single-post .post-media .post-header {
     position: relative;
     z-index: 20;
+    padding: 64px 0;
     margin: auto;
-    padding: 30px;
-    max-width: 550px;
 }
 
 .single-post .post-media .post-title,
@@ -50,12 +53,7 @@
     color: var(--white-color);
 }
 
-.single-post .post-media .post-title {
-    font-size: 36px;
-}
-
 .single-post .post-media .post-meta {
-    margin-top: 20px;
     margin-bottom: -20px;
     opacity: 0.7;
 }
@@ -70,7 +68,7 @@
     }
 
     .single-post .post-title {
-        font-size: 26px !important;
+        font-size: 36px;
     }
 
     .single-post .post-media {
