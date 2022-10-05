@@ -1,3 +1,5 @@
-assets/built
 node_modules
-dope.zip
+assets/built
+dist/dope.zip
+
+.DS_Store
